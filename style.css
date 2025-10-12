@@ -1,3 +1,56 @@
 ul {
     list-style-type: none;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+    background-color: navy;
+}
+
+header img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+header h1,
+header nav {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /*links*/
+}
+
+a:hover {
+    background-color: rgb(0, 0, 80);
+    text-decoration: underline;
+}
+
+.bottom-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.welcome {
+    flex: 3;
+}
+
+/*.widgets {
+    flex: 1;
+}*/
