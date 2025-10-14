@@ -1,3 +1,10 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
 }
@@ -29,18 +36,8 @@ header {
 
 }
 
-header img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-}
-
 header h1,
 header nav {
-    position: relative;
-    z-index: 2;
     color: white;
 }
 
@@ -60,6 +57,7 @@ a:hover {
 }
 
 .bottom-section {
+    margin: 20px;
     display: flex;
     gap: 20px;
     align-items: flex-start;
