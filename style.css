@@ -6,9 +6,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
-    position: relative;
+    padding: 0 20px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: navy;
+    z-index: 1000;
+}
+
+.hero {
+    height: 60vh;
+    background-image: url("BAS-picture.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+
 }
 
 header img {
