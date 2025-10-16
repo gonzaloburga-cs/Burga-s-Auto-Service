@@ -5,6 +5,43 @@
     box-sizing: border-box;
 }
 
+.logo {
+    height: 80px;   
+    width: auto;
+    display: block;
+}
+
+h1 a {
+    display: inline-block;
+}
+
+h1 a:link,
+h1 a:visited {
+    text-decoration: none;
+}
+
+header h1,
+header nav {
+    color: white;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    /*links*/
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 20px;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -14,10 +51,6 @@ ul {
     font-size: large;
     font-weight: bold;
 
-}
-
-.special-BAS:hover {
-    text-decoration: none;
 }
 
 header {
@@ -44,29 +77,15 @@ header {
     align-items: center;
     color: white;
     text-shadow: 1px 1px 5px black;
-
+    /*words in box*/
 }
 
-header h1,
-header nav {
-    color: white;
-}
-
-a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    position: relative;
-    /*links*/
-}
-
-a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    text-underline-offset: 20px;
+.hero-text {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    /*boxed words on image*/
 }
 
 .bottom-section {
@@ -83,3 +102,62 @@ a:hover {
 /*.widgets {
     flex: 1;
 }*/
+
+
+/*
+------------------------
+estimate.html
+------------------------
+*/
+
+.estimate-bottom-section {
+    max-width: 600px;
+    margin: 100px auto 50px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.estimate-bottom-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.estimate-bottom-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.estimate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.estimate-form label {
+    font-weight: bold;
+}
+
+.estimate-form select,
+.estimate-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.estimate-form button {
+    padding: 12px;
+    background-color: rgb(10, 10, 139);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.estimate-form button:hover {
+    background-color: rgb(0, 0, 80);
+}
