@@ -115,14 +115,18 @@ nav {
 /* Hero Section */
 .hero {
     background-image: url("copy_EB7CAFE6-730E-4B4D-810E-72FFA886FCCE\ \(1\).jpeg");
+    /*background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+         rgba(0, 0, 0, 0.7)),
+        url("copy_EB7CAFE6-730E-4B4D-810E-72FFA886FCCE\ \(1\).jpeg") no-repeat center center;*/
     background-size: cover;
     background-position: center;
-    min-height: 65vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: black;
+    color: whitesmoke;
     margin-top: 80px;
     position: relative;
     overflow: hidden;
@@ -135,14 +139,15 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 30% 50%, rgba(255, 215, 0, 0.1) 0%, transparent 50%);
+    /*background: radial-gradient(circle at 30% 50%, rgba(255, 215, 0, 0.1) 0%, transparent 50%);*/
 }
 
 .hero-content {
-    max-width: 900px;
-    padding: 0 2rem;
-    position: relative;
-    z-index: 1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    /*boxed words on image*/
 }
 
 .hero h1 {
